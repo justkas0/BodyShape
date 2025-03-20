@@ -1,0 +1,42 @@
+.section-groups-greed{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 105px 32px;
+}
+.card-group-img {
+    border-radius: 20px;
+   
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2); 
+    margin-bottom: 25px;   
+}
+.card-group-title {
+    font-family: var(---font-accent);
+    font-weight: 700;
+    font-size: clamp(1.625rem, 1.239rem + 1.93vw, 2.688rem);
+    letter-spacing: 0.07em;
+    color: var(---accent);
+}
+@media (max-width:1200px){
+    .section-groups-greed{
+        grid-template-columns: repeat(3,1fr);
+        gap: 60px 32px;
+        
+    }
+}
+@media (max-width:700px){
+    .section-groups-greed{
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+}
+@media(max-width: 540px){
+    .breakline{
+        display:none;
+    }
+}
+@media(max-width: 380px){
+    .section-groups-greed{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+}

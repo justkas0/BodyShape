@@ -1,0 +1,30 @@
+
+.button{
+    display: inline-block;
+    padding: 18px 47px 15px;
+   
+    border-radius: 7px;
+
+    background-color: var(---accent);
+    color: #000;
+
+    font-family: var(---font-accent);
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    
+}
+.button:hover{
+    background-color: #ce9c32;
+    text-shadow: 3px 3px 10px white;
+    box-shadow: 0 0 20px black;
+    transition: all 0.2s ease-in;
+}
+.button:active{
+    background-color: #7a5504;
+    color: white;
+    transition: all 30ms ease-out;
+}
+@media (max-width:800){
+    
+}

@@ -1,0 +1,34 @@
+.contacts { 
+    height: 860px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./../../img/footer-img/contact-form-bg.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+    font-family: var(---font-accent);
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 0.06em;
+    color: var(---accent)
+}
+@media(max-width: 800px){
+    .contacts{
+        padding:90px 0;
+        height: auto;
+    }
+}
+@media(max-width: 600px){
+    .contacts-title{
+        font-size: 60px;
+        display:flex;
+        justify-content: center;
+    }
+}

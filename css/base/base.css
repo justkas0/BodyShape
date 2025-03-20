@@ -10,6 +10,8 @@ body{
 
     font-family: var(---font-base);
     font-weight: 300;
+    padding-bottom: 50px;
+
 }
 a{
     color: #fafaf5;
